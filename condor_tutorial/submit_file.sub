@@ -1,0 +1,32 @@
+universe = vanilla
+log = logs/job_$(Cluster)_$(Process).log
+error = logs/job_$(Cluster)_$(Process).err
+output = logs/job_$(Cluster)_$(Process).out
+
+# Fill in with whatever executable you're using
+executable = executable.sh
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+# Uncomment and add input files that are in /home
+transfer_input_files = /home/suresh27/Projects/condor_tutorial/repo, /staging/suresh27/env/alexnet.tar.gz
+
+
+# Uncomment and add custom requirements
+# requirements =
+require_gpus = (GlobalMemoryMb >= 2000) && (Capability <= 7.5) 
+
++WantGPULab = true
++GPUJobLength = "short"
+
+request_gpus = 1
+request_cpus = 1
+request_memory = 20GB
+request_disk = 20GB
+
+queue 1
+
+
+# 10492800 - short (GlobalMemoryMb >= 2000) && (Capability <= 7.5)  
+# 10492802 - only request gpus

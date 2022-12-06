@@ -1,0 +1,38 @@
+040 (10492798.000.000) 2022-12-06 09:32:36 Started transferring input files
+	Transferring to host: <128.105.68.97:9618?addrs=128.105.68.97-9618+[2607-f388-2200-100-ac0-ebff-fe99-a130]-9618&alias=gpu2005.chtc.wisc.edu&noUDP&sock=slot1_4_1961062_55bb_16021>
+...
+040 (10492798.000.000) 2022-12-06 09:32:36 Finished transferring input files
+...
+001 (10492798.000.000) 2022-12-06 09:32:37 Job executing on host: <128.105.68.97:9618?addrs=128.105.68.97-9618+[2607-f388-2200-100-ac0-ebff-fe99-a130]-9618&alias=gpu2005.chtc.wisc.edu&noUDP&sock=startd_1961007_455a>
+...
+006 (10492798.000.000) 2022-12-06 09:32:45 Image size of job updated: 1000
+	1  -  MemoryUsage of job (MB)
+	324  -  ResidentSetSize of job (KB)
+...
+006 (10492798.000.000) 2022-12-06 09:35:37 Image size of job updated: 25324
+	1  -  MemoryUsage of job (MB)
+	324  -  ResidentSetSize of job (KB)
+...
+040 (10492798.000.000) 2022-12-06 09:35:37 Started transferring output files
+...
+040 (10492798.000.000) 2022-12-06 09:35:37 Finished transferring output files
+...
+005 (10492798.000.000) 2022-12-06 09:35:37 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	76607752  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	76607752  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :    74842 20971520  23971442 
+	   Gpus (Average)       :                 1         1 "GPU-5ce66687"
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        1    20480     20480 
+
+	Job terminated of its own accord at 2022-12-06T15:35:37Z with exit-code 0.
+...
